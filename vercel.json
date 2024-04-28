@@ -6,10 +6,6 @@
     {
       "src": "/server/(.*)",
       "dest": "/server.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/404.html" 
     }
   ]
 }
