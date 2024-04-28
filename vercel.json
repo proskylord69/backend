@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "elibrary",
+  "routes": [
+    { "handle": "filesystem" },
+    {
+      "src": "/server/(.*)",
+      "dest": "/server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/404.html" 
+    }
+  ]
+}
